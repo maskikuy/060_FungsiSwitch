@@ -61,8 +61,11 @@ int main()
             input();
             cout << "Hasil Perkalian = " << perkalian(bilSatu, bilDua) << endl;
             break;
-        
+        case 4:
+            input();
+            cout << "Hasil Pengurangan = " << pengurangan(bilSatu, bilDua) << endl;
+            break;
 
-        }while(pilihan != 5);
+       
     }
 }
